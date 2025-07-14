@@ -1,0 +1,278 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- --------- UNICONS ---------- -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+<!-- --------- CSS ---------- -->
+    <link rel="stylesheet" href="style.css">
+<!-- --------- FAVICON ---------- -->
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+<title>Portfolio | Anubhav</title>
+</head>
+<body>
+<nav>
+  <div class="nav-container">
+    <!-- Left -->
+    <div class="nav-left">
+      <label class="switch">
+        <input type="checkbox" onclick="document.body.classList.toggle('dark-mode')">
+        <span class="slider"></span>
+      </label>
+      <div class="nav-logo">
+        <p class="nav-name">Anubhav</p>
+        <span>.</span>
+      </div>
+    </div>
+    <!-- Center -->
+    <div class="nav-center">
+      <div class="nav-menu" id="myNavMenu">
+        <ul class="nav_menu_list">
+          <li class="nav_list"><a href="#home" class="nav-link active-link">Home</a></li>
+          <li class="nav_list"><a href="#about" class="nav-link">About</a></li>
+          <li class="nav_list"><a href="#projects" class="nav-link">Projects</a></li>
+          <li class="nav_list"><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- Right -->
+    <div class="nav-button">
+        <a href="assets/Anubhav_CV.pdf" download="Anubhav_Dubey_CV.pdf" class="btn nav-cv-btn">
+            Download CV <i class="uil uil-file-alt"></i>
+        </a>
+    </div>
+</nav>
+<!-- -------------- MAIN ---------------- -->
+    <main class="wrapper">
+       <!-- -------------- FEATURED BOX ---------------- -->
+       <section class="featured-box" id="home">
+          <div class="featured-text">
+            <div class="featured-text-card">
+                <span>Anubhav Dubey</span>
+            </div>
+            <div class="featured-name">
+                <p>I'm <span class="typedText"></span></p>
+            </div>
+            <div class="featured-text-info">
+                <p>AI developer focused on building smart, real-world solutions with code.</p>
+            </div>
+            <div class="featured-text-btn">
+                <a href="assets/Anubhav_CV.pdf" download class="btn nav-cv-btn">
+                    Download CV <i class="uil uil-file-alt"></i>
+                </a>
+            </div>
+            <div class="social_icons">
+                <a href="https://www.instagram.com/anubhhv" target="_blank" class="icon">
+                <i class="uil uil-instagram"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/anubhhv" target="_blank" class="icon">
+                 <i class="uil uil-linkedin-alt"></i>
+                 </a>
+                 <a href="https://dribbble.com/anubhhv" target="_blank" class="icon">
+                 <i class="uil uil-dribbble"></i>
+                    </a>
+                    <a href="https://github.com/anubhhv" target="_blank" class="icon">
+                    <i class="uil uil-github-alt"></i>
+                 </a>
+                </div>
+          </div>
+          <div class="featured-image">
+            <div class="image">
+                <img src="assets/images/avatar.png" alt="avatar">
+            </div>
+          </div>
+          <div class="scroll-icon-box">
+            <a href="#about" class="scroll-btn">
+                <i class="uil uil-mouse-alt"></i>
+                <p>Scroll Down</p>
+            </a>
+          </div>
+</section>
+       <!-- -------------- ABOUT BOX ---------------- -->
+       <section class="section" id="about">
+          <div class="top-header">
+            <h1>About Me</h1>
+          </div>
+          <div class="row">
+            <div class="col">
+                <div class="about-info">
+                    <h3>My introduction</h3>
+                    <p>I’m an AI developer with experience in Python, TensorFlow, and scikit-learn, focused on building smart, data-driven applications. I also work with full-stack technologies like React and Node.js to bring these solutions to life on the web.
+                    </p>
+                    <div class="about-btn">
+                        <a href="assets/Anubhav_CV.pdf" download="Anubhav_Dubey_CV.pdf" class="btn nav-cv-btn">
+                            Download CV <i class="uil uil-file-alt"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="skills-box">
+                    <div class="skills-header">
+                        <h3>AI / Machine Learning</h3>
+      </div>
+      <div class="skills-list">
+        <span>Python</span>
+        <span>TensorFlow</span>
+        <span>scikit-learn</span>
+        <span>OpenCV</span>
+        <span>Pandas</span>
+        <span>NumPy</span>
+        <span>Matplotlib</span>
+      </div>
+    </div>
+    <div class="skills-box">
+      <div class="skills-header">
+        <h3>Frontend</h3>
+      </div>
+      <div class="skills-list">
+        <span>HTML</span>
+        <span>CSS</span>
+        <span>Bootstrap</span>
+        <span>JavaScript</span>
+        <span>Vue</span>
+        <span>React</span>
+        <span>Angular</span>
+      </div>
+    </div>
+    <div class="skills-box">
+      <div class="skills-header">
+        <h3>Backend</h3>
+      </div>
+      <div class="skills-list">
+        <span>Node.js</span>
+        <span>Express</span>
+        <span>PHP</span>
+        <span>Java</span>
+        <span>Python</span>
+        <span>C++</span>
+      </div>
+    </div>
+    <div class="skills-box">
+      <div class="skills-header">
+        <h3>Database</h3>
+      </div>
+      <div class="skills-list">
+        <span>MySQL</span>
+        <span>PostgreSQL</span>
+        <span>MongoDB</span>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- -------------- PROJECT BOX ---------------- -->
+<section class="section" id="projects">
+  <div class="top-header">
+    <h1>Projects</h1>
+  </div>
+  <div class="project-container">
+
+    <a href="project1.html" class="project-box">
+      <i class="uil uil-briefcase-alt"></i>
+      <h3>Projects</h3>
+      <label></label>
+    </a>
+
+    <a href="people.html" class="project-box">
+      <i class="uil uil-users-alt"></i>
+      <h3>Blog</h3>
+      <label></label>
+    </a>
+
+    <a href="experience.html" class="project-box">
+      <i class="uil uil-award"></i>
+      <h3>Experience</h3>
+      <label></label>
+    </a>
+  </div>
+</section>
+<!-- -------------- CONTACT BOX ---------------- -->
+<section class="section" id="contact">
+  <div class="top-header">
+    <h1>Get in touch</h1>
+    <span>Do you have a project in your mind? Contact me here</span>
+  </div>
+  <div class="row">
+    <!-- Contact Info Box -->
+    <div class="col">
+      <div class="contact-info">
+        <h2>Find Me</h2>
+        <p><i class="uil uil-envelope"></i> anubhhv@gmail.com</p>
+        <p><i class="uil uil-phone"></i> +91-9871718970</p>
+      </div>
+    </div>
+    
+    <!-- Dev Profile Box -->
+    <div class="col">
+  <div class="dev-profile">
+    <h2>Dev Profile <i class="uil uil-code-branch"></i></h2>
+    <div class="code-container">
+      <pre><code><span class="syntax-keyword">const</span> <span class="syntax-var">anubhav</span> <span class="syntax-operator">=</span> {
+  <span class="syntax-property">name</span>: <span class="syntax-string">'Anubhav Dubey'</span>,
+  <span class="syntax-property">skills</span>: [<span class="syntax-string">'AI/ML'</span>, <span class="syntax-string">'Python'</span>, <span class="syntax-string">'React'</span>,
+           <span class="syntax-string">'Node.js'</span>, <span class="syntax-string">'TensorFlow'</span>],
+  <span class="syntax-property">hardWorker</span>: <span class="syntax-boolean">true</span>,
+  <span class="syntax-property">problemSolver</span>: <span class="syntax-boolean">true</span>,
+  <span class="syntax-function">hireable</span>: <span class="syntax-keyword">function</span>() {
+    <span class="syntax-keyword">return</span> (
+      <span class="syntax-this">this</span>.<span class="syntax-property">hardWorker</span> <span class="syntax-operator">&&</span>
+      <span class="syntax-this">this</span>.<span class="syntax-property">problemSolver</span> <span class="syntax-operator">&&</span>
+      <span class="syntax-this">this</span>.<span class="syntax-property">skills</span>.<span class="syntax-property">length</span> <span class="syntax-operator">>=</span> <span class="syntax-number">5</span>
+    );
+  }
+}</code></pre>
+    </div>
+  </div>
+</div>
+</section>
+<!-- --------------- FOOTER --------------- -->
+    <footer>
+        <div class="top-footer">
+            <p>Anubhav Dubey .</p>
+        </div>
+        <div class="middle-footer">
+            <ul class="footer-menu">
+                <li class="footer_menu_list">
+                    <a href="#home">Home</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#about">About</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#projects">Projects</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+            <div class="social_icons">
+                <a href="https://www.instagram.com/anubhhv" target="_blank" class="icon">
+                <i class="uil uil-instagram"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/anubhhv" target="_blank" class="icon">
+                 <i class="uil uil-linkedin-alt"></i>
+                 </a>
+                 <a href="https://dribbble.com/anubhhv" target="_blank" class="icon">
+                 <i class="uil uil-dribbble"></i>
+                    </a>
+                    <a href="https://github.com/anubhhv" target="_blank" class="icon">
+                    <i class="uil uil-github-alt"></i>
+                 </a>
+                </div>
+          </div>
+        <div class="bottom-footer">
+            <p>Copyright &copy; <a href="#home" style="text-decoration: none;">Anubhav Dubey</a> - All rights reserved</p>
+        </div>
+    </footer>
+</div>
+<!-- ----- TYPING JS Link ----- -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+<!-- ----- SCROLL REVEAL JS Link----- -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+<!-- ----- MAIN JS ----- -->
+    <script src="main.js"></script>
+</body>
+</html>
