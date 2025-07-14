@@ -1050,3 +1050,6 @@ body.dark-mode .dev-profile::before {
     display: none !important;
     content: none !important;
 }
+body {
+  overflow-x: hidden;
+}
